@@ -31,7 +31,6 @@ Lists the index of the To Do lists
 `POST http://localhost:3000/todos`
 Create a new To Do list
 
-**Params**
 | Body Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `id` | `string` | **Required**. The To Do List ID |
@@ -40,7 +39,6 @@ Create a new To Do list
 `POST http://localhost:3000/todos/:id/tasks`
 Create a new Task on a To Do List
 
-**Params**
 | Route Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `id` | `string` | **Required**. The To Do List ID |
@@ -54,7 +52,6 @@ Create a new Task on a To Do List
 `PUT http://localhost:3000/todos/:id`
 Change the title of a To Do List
 
-**Params**
 | Route Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `id` | `string` | **Required**. The To Do List ID |
@@ -67,7 +64,6 @@ Change the title of a To Do List
 `DELETE http://localhost:3000/todos/:id`
 Delete a To Do List
 
-**Params**
 | Route Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `id` | `string` | **Required**. The To Do List ID |
