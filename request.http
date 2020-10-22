@@ -1,40 +1,41 @@
-// Para usar esse arquivo de requisições, você vai precisar instalar uma extensão chamadad humao.Rest-client encontradad no seguinte link:
+// To use this request file, you will need to install an extension called humao.Rest-client found at the following link:
 // https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 ###
-// Rota GET Index
+// GET Route Index
 GET http://localhost:3000/todos
 ###
-// Rota POST
+// POST Route to create a To Do List
 POST http://localhost:3000/todos HTTP/1.1
 content-type: application/json
 
 {
   "id": "0",
-  "title": "Exemplo de ToDo"
+  "title": "ToDo Sample"
 }
 ###
+// POST Route to create a task on a To Do List
 POST http://localhost:3000/todos/0/tasks HTTP/1.1
 Content-Type: application/json
 
 {
-  "title": "Nova Tarefa"
+  "title": "New task"
 }
 ###
-// Rota PUT que altera o titulo do toDo
+// PUT route that change the title of the toDo
 PUT http://localhost:3000/todos/0 HTTP/1.1
 content-type: application/json
 
 {
-  "title": "Primeiro ToDo"
+  "title": "first ToDo"
 }
 ###
-// Request to check error
-PUT http://localhost:3000/todos/5 HTTP/1.1
+// PUT route to check error on requested ID
+PUT http://localhost:3000/todos/k HTTP/1.1
 content-type: application/json
 
 {
-  "title": "Quinto ToDo"
+  "title": "The K ToDo"
 }
 ###
-// Rota DELETE que deleta um Todo baseado em seu id
+// DELETE route that delete a To Do List
 DELETE http://localhost:3000/todos/0
