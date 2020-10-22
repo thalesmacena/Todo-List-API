@@ -7,7 +7,7 @@ In this project we use the node's [Express Server](https://expressjs.com/). To h
 ## Run the project
 To run the project, download or copy the repository with the command:
 ```Bash
-git clone https://github.com/thalesmacena/ToDo-List-API.git
+git clone https://github.com/thalesmacena/Todo-List-API.git
 ```
 after that, open the terminal in the folder where you copied the files, and use a package manager to start the program script
 ### [NPM](https://www.npmjs.com/)
