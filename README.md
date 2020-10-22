@@ -2,7 +2,7 @@
 This is a small project to demonstrate basic knowledge of Node.JS. In it we created a small To Do list API. 
 
 ## Tools Used:
-In this project we use the node's [express server](https://expressjs.com/). To help refresh the server, [Nodemon](https://nodemon.io/) is also used as a developer dependency 
+In this project we use the node's [Express Server](https://expressjs.com/). To help refresh the server, [Nodemon](https://nodemon.io/) is also used as a developer dependency 
 
 ## Run the project
 To run the project, download or copy the repository with the command:
@@ -44,6 +44,7 @@ Create a new Task on a To Do List
 | Route Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `id` | `string` | **Required**. The To Do List ID |
+
 | Body Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `title` | `string` | **Required**. The title of the Task |
@@ -57,6 +58,7 @@ Change the title of a To Do List
 | Route Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `id` | `string` | **Required**. The To Do List ID |
+
 | Body Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `title` | `string` | **Required**. The title of the List |
