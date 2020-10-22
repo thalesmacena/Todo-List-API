@@ -16,7 +16,7 @@ npm run dev
 ```
 ### [Yarn](https://yarnpkg.com/)
 ```Bash
-yarn run Dev
+yarn run dev
 ```
 The server will start at port 3000
 
